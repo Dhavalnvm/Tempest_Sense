@@ -1,0 +1,39 @@
+# Core dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Kafka
+kafka-python==2.0.2
+
+# Database
+clickhouse-connect==0.7.1
+redis==5.0.1
+
+# HTTP
+requests==2.31.0
+httpx==0.26.0
+
+# Utilities
+python-dateutil==2.8.2
+python-dotenv==1.0.0
+
+# Logging
+structlog==24.1.0
+
+# Serialization
+msgpack==1.0.7
+
+# ========== ML DEPENDENCIES (LIGHTWEIGHT) ==========
+# Time series forecasting (trains instantly)
+prophet==1.1.5
+
+# Scientific computing
+numpy==1.24.3
+pandas==2.1.4
+scikit-learn==1.3.2
+
+# NO TensorFlow needed! ✅
+# NO Keras needed! ✅
+# NO GPU required! ✅
